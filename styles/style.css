@@ -180,7 +180,6 @@ span a{
 .data{
     width: 2.3rem;
     height: 2.3rem;
-    /* background-color: black; */
     color: white;
     overflow: hidden ;
     border-radius: 50%;
@@ -224,9 +223,7 @@ span a{
     z-index: 200;
     background: rgba(255, 255, 255, 0.2); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-
+   
 }
 
 .data.show{
@@ -271,6 +268,7 @@ span a{
     padding: .5rem .8rem;
     border-radius: 2rem;
     font-size: 1rem;
+    margin-top: 10px;
 }
 
 .time-status {
@@ -331,7 +329,7 @@ html.is-animating .transition-wipe{
         font-size:1.5rem;
         text-align: center;
         z-index: 99;
-      
+      padding: 0px 10px;
     }
     .main-title span{
         font-size: 1rem;
@@ -366,7 +364,7 @@ html.is-animating .transition-wipe{
         background-color: white;
         z-index: 99;
         box-shadow: 0 10px 20px rgba(190, 188, 188, 0.8);
-        background-color: red;
+        /* background-color: red; */
         /* margin:0px 10px; */
         
         
@@ -393,8 +391,15 @@ html.is-animating .transition-wipe{
     .time-status{
         font-size: 30px;
     }
-    
-    
- 
+    .data.show{
+        margin-top:40px;
+        width: 230px;
+        height: 400px;
+        /* background-color: red; */
+    }
+    .data .close{
+        margin-top: 10px;
+    }
+  
 }
 
