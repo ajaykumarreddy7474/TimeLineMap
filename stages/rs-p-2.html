@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/extra.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="module" src="/js/swup.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<style>
+    .container::before{
+    content: "";    
+    background-image: url('/img/research.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    opacity: 50%;
+    z-index: -2;
+    }
+    
+</style>
+<body>
+   <div class="container">
+    <nav>
+        <div class="logo"><img src="/img/lizmotors.png" alt=""></div>
+    </nav>
+
+    <h4 class="time-status transition-main" >Research 
+        <span class="material-symbols-outlined">
+        double_arrow
+        </span> 
+        External
+        <span class="material-symbols-outlined">
+            double_arrow
+            </span> 
+            B2C
+    </h4>
+    <div class="timeline-wrapper">
+        <ul class="timeline">
+            <li data-date="b2c"> 
+                <span class="title"><a href="/stages/research.html"><span class="material-symbols-outlined">
+                    undo
+                    </span>Back </a>  <img src="/img/pic.png" alt=""><a href="/stages/b2c-rs.html">next<span class="material-symbols-outlined">
+                        arrow_circle_right</span></a></span>
+                <div class="data ">
+                    <h3>Research, been waiting for </h3>
+                    <small>Mar, 8 2000</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero alias ea facilis molestias aliquam rerum voluptatibus earum consequuntur quisquam sapiente!</p>
+                      <span class="close">Click to Open</span>
+                </div>
+
+            </li>
+
+            <li data-date="b2c"> 
+                <span class="title"><a href="/index.html">Back </a> <img src="/img/pic.png" alt=""><a href="#">Next </a></span>
+            
+                <div class="data ">
+                    <h3>Day you're been waiting for </h3>
+                    <small>Mar, 8 2000</small>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero alias ea facilis molestias aliquam rerum voluptatibus earum consequuntur quisquam sapiente!</p>
+                        <span class="close">Click to Open</span>
+                </div>
+
+            </li>
+
+           
+
+
+            
+        </ul>
+    </div>
+    <div class="transition-wipe overlay"></div>
+</div>
+  
+    <script src="/js/ver-main.js"></script>
+</body>
+</html>
