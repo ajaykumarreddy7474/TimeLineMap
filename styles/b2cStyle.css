@@ -1,0 +1,130 @@
+
+    .timeline .title{
+    margin-top: 120px;
+    background-color: rgb(218, 215, 215) ;
+    width: 300px;
+    height:40vh;
+    flex-direction: column;
+}
+.timeline li::before{
+    content: none;
+}
+
+.line-x ul{
+ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:1px;
+    margin-top: 50px;
+    margin-left: -20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: auto;
+    align-items: flex-start;
+    color:black;
+   
+    font-weight: normal;
+}
+.line-x li{
+    font-size: 13px;
+    margin-top: -140px;
+    
+}
+.main-content-1{
+    margin-top: -260px;
+}
+.list-item-P {
+    margin-left: -60px;
+    display: flex;
+    align-items: center;
+    height: 0.1px; 
+    list-style-type: none; 
+    color:black;
+    
+  }
+  
+  .heading-first {
+    width: 100px; 
+    text-align: right; 
+    padding-right: 5px; 
+    font-size: 10px;
+    color:black;
+    text-transform: lowercase;
+    font-weight: normal;
+  }
+ 
+  .progressbar,
+  .progressbar2,
+  .progressbar3 {
+    
+    height: 40px;
+    background-color: rgb(24, 191, 247);
+    display: flex;
+    justify-content: flex-start;
+    transition: all 0.5s ease;
+  }
+.progressbar{
+    width:180px;
+    padding-right: -10px;
+    
+}
+.progressbar2{
+    width: 160px;
+}
+.progressbar3{
+    width: 140px;
+  
+}
+.number {
+    padding: 0 5px; 
+    text-align: right; 
+    font-size: 10px;
+    text-transform: lowercase;
+    font-weight: normal;
+  }
+  .content-bottom {
+    margin-top: -80px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-bottom h5 {
+    margin: 0; 
+    font-size: 13px;
+    font-family: poppins;
+    text-transform: capitalize;
+    font-weight: normal;
+    color:black;
+}
+
+@media  (max-width: 770px) {
+   
+    .timeline-wrapper{
+        height: 70vh;
+        /* margin-top: -150px; */
+    }
+    .line-x ul {
+        /* flex-wrap: wrap; */
+        position: relative;
+        justify-content: center;
+        gap:50px; /* Adjust the gap for smaller screens */
+        margin-top:70px;
+    }
+    
+    .line-x li {
+       
+        /* background-color: red; */
+        margin-top: -120px;
+        width: calc(33.33% - 2px); /* Adjust the width for smaller screens */
+    }
+    .content-bottom {
+        margin-top: -80px;
+        margin-left: -35px;
+     
+    }
+
+  
+}

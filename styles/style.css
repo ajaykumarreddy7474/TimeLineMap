@@ -126,7 +126,7 @@ nav{
     width: 0.12rem;
     height: 1rem;
     background-color: #888;
-    
+   
 }
 
 
@@ -158,7 +158,7 @@ nav{
 
 }
 .timeline li:hover .title{
-    opacity: 1;
+    opacity:1;
     
 }
 
@@ -189,6 +189,7 @@ span a{
     overflow: hidden ;
     transition: .3s ease;
     
+    
 }
 .data::before{
     position: absolute;
@@ -199,11 +200,12 @@ span a{
     background-color: white;
     content: '\e8b8';
     font-size: 28px;
-    z-index:-2;
+    z-index:-1;
     border-radius: 50%;
     display: inline-block;
     animation: rotateIcon 3s linear infinite;
-  
+ 
+
 }
 
 @keyframes rotateIcon {
@@ -240,7 +242,7 @@ span a{
     text-transform: none;
     align-items: center;
     border: 2px solid rgb(202, 200, 200);
-  
+ 
     
 }
 .data small{
@@ -364,8 +366,7 @@ html.is-animating .transition-wipe{
         background-color: white;
         z-index: 99;
         box-shadow: 0 10px 20px rgba(190, 188, 188, 0.8);
-        /* background-color: red; */
-        /* margin:0px 10px; */
+ 
         
         
     }
@@ -383,6 +384,7 @@ html.is-animating .transition-wipe{
     .timeline li .title{
         gap:20px;
         padding: 40px;  
+   
        
     }
     .timeline li:hover:before{
@@ -393,7 +395,7 @@ html.is-animating .transition-wipe{
     }
     .data.show{
         margin-top:40px;
-        width: 230px;
+        width: 330px;
         height: 400px;
         /* background-color: red; */
     }
