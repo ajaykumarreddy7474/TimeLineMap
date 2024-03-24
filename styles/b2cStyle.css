@@ -99,6 +99,9 @@
     font-weight: normal;
     color:black;
 }
+.final-btn{
+    text-align: center;
+}
 
 @media  (max-width: 770px) {
    
